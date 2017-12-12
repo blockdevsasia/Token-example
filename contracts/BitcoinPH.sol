@@ -203,13 +203,13 @@ contract StandardToken is ERC20, BasicToken {
  * Note they can later distribute these tokens as they wish using `transfer` and other
  * `StandardToken` functions.
  */
-contract SimpleToken is StandardToken {
+contract BitcoinPH is StandardToken {
 
-  string public constant name = "Bicoin Philippines";
-  string public constant symbol = "BPH";
+  string public constant name = "Bitcoin Philippines";
+  string public constant symbol = "BTCPH";
   uint8 public constant decimals = 18;
 
-  uint256 public constant INITIAL_SUPPLY = 42000000 * (10 ** uint256(decimals));
+  uint256 public constant INITIAL_SUPPLY = 21000000 * (10 ** uint256(decimals));
 
   /**
    * @dev Constructor that gives msg.sender all of existing tokens.

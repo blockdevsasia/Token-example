@@ -1,5 +1,5 @@
-var SimpleToken = artifacts.require("./SimpleToken.sol");
+var BitcoinPH = artifacts.require("./BitcoinPH.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(SimpleToken);
+  deployer.deploy(BitcoinPH);
 };
