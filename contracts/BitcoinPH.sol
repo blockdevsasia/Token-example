@@ -2,29 +2,6 @@ pragma solidity ^0.4.18;
 
 
 /**
- * @title Math
- * @dev Assorted math operations
- */
-
-library Math {
-  function max64(uint64 a, uint64 b) internal pure returns (uint64) {
-    return a >= b ? a : b;
-  }
-
-  function min64(uint64 a, uint64 b) internal pure returns (uint64) {
-    return a < b ? a : b;
-  }
-
-  function max256(uint256 a, uint256 b) internal pure returns (uint256) {
-    return a >= b ? a : b;
-  }
-
-  function min256(uint256 a, uint256 b) internal pure returns (uint256) {
-    return a < b ? a : b;
-  }
-}
-
-/**
  * @title SafeMath
  * @dev Math operations with safety checks that throw on error
  */
@@ -60,6 +37,7 @@ library SafeMath {
 /**
  * @title ERC20Basic
  * @dev Simpler version of ERC20 interface
+ * Deals with typical token function - sending a token
  * @dev see https://github.com/ethereum/EIPs/issues/179
  */
 contract ERC20Basic {
@@ -87,7 +65,7 @@ contract BasicToken is ERC20Basic {
     require(_to != address(0));
     require(_value <= balances[msg.sender]);
 
-    // SafeMath.sub will throw if there is not enough balance.
+    // SafeMath.sub will throw if there is not enough balance to cover the tx
     balances[msg.sender] = balances[msg.sender].sub(_value);
     balances[_to] = balances[_to].add(_value);
     Transfer(msg.sender, _to, _value);
@@ -107,6 +85,8 @@ contract BasicToken is ERC20Basic {
 
 /**
  * @title ERC20 interface
+ * Sort of a required 'permission' mechanic
+ * before sending a tx, it must be approved
  * @dev see https://github.com/ethereum/EIPs/issues/20
  */
 contract ERC20 is ERC20Basic {
@@ -221,4 +201,3 @@ contract BitcoinPH is StandardToken {
   }
 
 }
-
