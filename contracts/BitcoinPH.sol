@@ -205,6 +205,7 @@ contract StandardToken is ERC20, BasicToken {
  */
 contract BitcoinPH is StandardToken {
 
+  // just change the following 4 variables to create your own token!
   string public constant name = "Bitcoin Philippines";
   string public constant symbol = "BTCPH";
   uint8 public constant decimals = 18;
@@ -214,7 +215,7 @@ contract BitcoinPH is StandardToken {
   /**
    * @dev Constructor that gives msg.sender all of existing tokens.
    */
-  function SimpleToken() public {
+  function BitcoinPH() public {
     totalSupply = INITIAL_SUPPLY;
     balances[msg.sender] = INITIAL_SUPPLY;
   }
