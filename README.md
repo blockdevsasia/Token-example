@@ -4,9 +4,8 @@
 
 1. . Install/Load Tools
     1. Metamask extension on Chrome
-        2. https://faucet.metamask.io/    - Get test ETH coins (needed to deploy your contract)
-        3. https://ropsten.etherscan.io/  - Ropsten testnet
-        4. https://code.visualstudio.com/ - IDE (you may use your own)
+        1. https://faucet.metamask.io/    - Get test ETH coins (needed to deploy your contract)
+        2. https://ropsten.etherscan.io/  - Ropsten testnet
 
     2. Web IDE - https://remix.ethereum.org/#optimize=true&version=soljson-v0.4.24+commit.e67f0147.js 
         1. Easy to use IDE w clickable smart contract interface for quick testing
@@ -22,8 +21,9 @@
 
 
 ## You're done! Finished early? Try setting up your own environment!
-1. https://github.com/MNLBlockDevs/ethdev_docker 
-2. clone this repo into the app folder
+1. Install an IDE (recommended: https://code.visualstudio.com/)
+2. https://github.com/MNLBlockDevs/ethdev_docker 
+2. clone https://github.com/MNLBlockDevs/Token-example into the app folder
 3. Run 'ganache-cli' to start node
 4. Run unit test 'truffle test' in root to make sure everything was copied properly
 
