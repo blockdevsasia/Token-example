@@ -1,6 +1,6 @@
 # Token-example
 
-## This token example repo is primarily for first coding session in the Manila Blockchain Developers meetup and not intended for production use - implement at your own risk. 
+## This token example repo is primarily for first coding session in the BlockDevs Asia meetup and not intended for production use - implement at your own risk. 
 
 1. . Install/Load Tools
     1. Metamask extension on Chrome
