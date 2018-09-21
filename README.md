@@ -15,7 +15,7 @@
 2. Simple exercise: Let’s recreate (a simple version of) Bitcoin on the Ethereum blockchain!
     1. https://github.com/MNLBlockDevs/Token-example/blob/master/contracts/BitcoinPH.sol
     2. Inherits from OpenZeppelin 
-    3. Next meeting - Let’s ICO it!
+    3. Next - ICO it...?
 
 
 3. Follow STEP 3 ONWARDS https://steemit.com/ethereum/@maxnachamkin/how-to-create-your-own-ethereum-token-in-an-hour-erc20-verified 
