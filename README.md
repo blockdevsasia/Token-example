@@ -23,7 +23,7 @@
 ## You're done! Finished early? Try setting up your own environment!
 1. Install an IDE (recommended: https://code.visualstudio.com/)
 2. https://github.com/MNLBlockDevs/ethdev_docker 
-2. clone https://github.com/MNLBlockDevs/Token-example into the app folder
+2. clone https://github.com/MNLBlockDevs/Token-example into the app folder (do this for any dApp you want to build from now on)
 3. Run 'ganache-cli' to start node
 4. Run unit test 'truffle test' in root to make sure everything was copied properly
 
