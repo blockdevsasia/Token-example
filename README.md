@@ -2,26 +2,19 @@
 
 This token example repo is primarily for first coding session in the Manila Blockchain Developers meetup and not intended for production use - implement at your own risk. 
 
-1. Join our Slack
-    1. Link
-    2. Community voted topics (in-between) every meetup
-    3. Community blockchain projects - like cryptokitties!
-2. Check out repos:
-    1. https://github.com/MNLBlockDevs 
-    2. https://github.com/OpenZeppelin/zeppelin-solidity
-3. Install/Load Tools
+1. . Install/Load Tools
     1. Metamask extension on Chrome
         1. https://www.myetherwallet.com/
         2. https://faucet.metamask.io/
         3. https://ropsten.etherscan.io/
 
-    1. Web IDE - https://remix.ethereum.org/#version=soljson-v0.4.19+commit.c4cbbb05.js
+    2. Web IDE - https://remix.ethereum.org/#version=soljson-v0.4.19+commit.c4cbbb05.js
         1. Easy to use IDE w clickable smart contract interface for quick testing
         2. Good for a few files of smart contracts, for interaction w front end frameworks, check out links
             1. http://truffleframework.com/tutorials/ 
             2. https://github.com/truffle-box 
 
-1. Simple exercise: Let’s recreate (a simple version of) Bitcoin on the Ethereum blockchain!
+2. Simple exercise: Let’s recreate (a simple version of) Bitcoin on the Ethereum blockchain!
     1. https://github.com/MNLBlockDevs/Token-example/blob/master/contracts/BitcoinPH.sol
     2. Consolidated from OpenZeppelin
     3. Next meeting - Let’s ICO it!
