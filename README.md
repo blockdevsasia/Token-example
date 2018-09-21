@@ -7,15 +7,13 @@
         1. https://faucet.metamask.io/    - Get test ETH coins (needed to deploy your contract)
         2. https://ropsten.etherscan.io/  - Ropsten testnet
 
-    2. Web IDE - https://remix.ethereum.org/#optimize=true&version=soljson-v0.4.24+commit.e67f0147.js 
+    2. Remix Web IDE - https://remix.ethereum.org/#optimize=true&version=soljson-v0.4.24+commit.e67f0147.js 
         1. Easy to use IDE w clickable smart contract interface for quick testing
         2. Good for a few files of smart contracts, for interaction w front end frameworks, check out links. Anything beyond a few files, you need a local environment
 
 2. Simple exercise: Let’s recreate (a simple version of) Bitcoin on the Ethereum blockchain!
-    1. https://github.com/MNLBlockDevs/Token-example/blob/master/contracts/BitcoinPH.sol
-    2. Inherits from OpenZeppelin 
-    3. Next - ICO it...?
-
+    1. https://github.com/MNLBlockDevs/Token-example/blob/master/contracts/BitcoinPH.sol * Inherits from OpenZeppelin 
+    2. Paste the code in the link above into Remix
 
 3. Follow STEP 3 ONWARDS https://steemit.com/ethereum/@maxnachamkin/how-to-create-your-own-ethereum-token-in-an-hour-erc20-verified 
 
