@@ -14,6 +14,7 @@
 2. Simple exercise: Let’s recreate (a simple version of) Bitcoin on the Ethereum blockchain!
     1. https://github.com/blockdevsasia/Token-example/blob/master/contracts/BitcoinPH.sol * Inherits from OpenZeppelin 
     2. Paste the code in the link above into Remix
+    3. (another option) : Open Remix through this link: http://remix.ethereum.org/#version=soljson-v0.4.25+commit.59dbf8f1.js&optimize=true&gist=1993e710996caad48e783a56c14993a2 and select the gist in the left menu, and then compile.
 
 3. Follow STEP 3 ONWARDS https://steemit.com/ethereum/@maxnachamkin/how-to-create-your-own-ethereum-token-in-an-hour-erc20-verified 
 
