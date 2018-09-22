@@ -12,7 +12,7 @@
         2. Good for a few files of smart contracts, for interaction w front end frameworks, check out links. Anything beyond a few files, you need a local environment
 
 2. Simple exercise: Let’s recreate (a simple version of) Bitcoin on the Ethereum blockchain!
-    1. https://github.com/MNLBlockDevs/Token-example/blob/master/contracts/BitcoinPH.sol * Inherits from OpenZeppelin 
+    1. https://github.com/blockdevsasia/Token-example/blob/master/contracts/BitcoinPH.sol * Inherits from OpenZeppelin 
     2. Paste the code in the link above into Remix
 
 3. Follow STEP 3 ONWARDS https://steemit.com/ethereum/@maxnachamkin/how-to-create-your-own-ethereum-token-in-an-hour-erc20-verified 
@@ -20,8 +20,8 @@
 
 ## You're done! Finished early? Try setting up your own environment!
 1. Install an IDE (recommended: https://code.visualstudio.com/)
-2. https://github.com/MNLBlockDevs/ethdev_docker 
-2. clone https://github.com/MNLBlockDevs/Token-example into the app folder (do this for any dApp you want to build from now on)
+2. https://github.com/blockdevsasia/ethdev_docker 
+2. clone https://github.com/blockdevsasia/Token-example into the app folder (do this for any dApp you want to build from now on)
 3. Run 'ganache-cli' to start node
 4. Run unit test 'truffle test' in root to make sure everything was copied properly
 
@@ -31,7 +31,7 @@ https://github.com/truffle-box
 
 
 ## Next meeting: Build your own Ethereum game with PhaserJS and VueJS
-https://github.com/MNLBlockDevs/samplepacman-eth 
+https://github.com/blockdevsasia/samplepacman-eth 
 
 Further Reading:
 1. https://media.consensys.net/ethon-introducing-semantic-ethereum-15f1f0696986
