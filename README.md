@@ -14,6 +14,7 @@
 2. Simple exercise: Let’s recreate (a simple version of) Bitcoin on the Ethereum blockchain!
     1. https://github.com/blockdevsasia/Token-example/blob/master/contracts/BitcoinPH.sol * Inherits from OpenZeppelin 
     2. Paste the code in the link above into Remix
+    3. (another option) : Open Remix through this link: http://remix.ethereum.org/#version=soljson-v0.4.25+commit.59dbf8f1.js&optimize=true&gist=1993e710996caad48e783a56c14993a2 and select the gist in the left menu, and then compile.
 
 3. Follow STEP 3 ONWARDS https://steemit.com/ethereum/@maxnachamkin/how-to-create-your-own-ethereum-token-in-an-hour-erc20-verified 
 
@@ -21,7 +22,7 @@
 ## You're done! Finished early? Try setting up your own environment!
 1. Install an IDE (recommended: https://code.visualstudio.com/)
 2. https://github.com/blockdevsasia/ethdev_docker 
-2. clone https://github.com/blockdevsasia/Token-example into the app folder (do this for any dApp you want to build from now on)
+2. clone https://github.com/blockdevsasia/Token-example into the *apps* folder (do this for any dApp you want to build from now on)
 3. Run 'ganache-cli' to start node
 4. Run 'truffle migrate' then 'truffle test' in root to make sure everything was copied properly
 
