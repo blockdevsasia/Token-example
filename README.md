@@ -23,7 +23,7 @@
 2. https://github.com/blockdevsasia/ethdev_docker 
 2. clone https://github.com/blockdevsasia/Token-example into the app folder (do this for any dApp you want to build from now on)
 3. Run 'ganache-cli' to start node
-4. Run unit test 'truffle test' in root to make sure everything was copied properly
+4. Run 'truffle migrate' then 'truffle test' in root to make sure everything was copied properly
 
 Sample dApps:
 http://truffleframework.com/tutorials/ 
